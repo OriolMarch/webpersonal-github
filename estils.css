@@ -1,0 +1,28 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: darkblue;
+  margin-top: 50px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+  margin: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
