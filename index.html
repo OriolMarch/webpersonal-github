@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pàgina personal - Oriol March Vernet</title>
-  <link rel="stylesheet" href="estils.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pàgina personal — Oriol March Vernet</title>
+  <link rel="stylesheet" href="estils.css" />
 </head>
 <body>
-  <h1>Oriol March Vernet</h1>
-  <p>Hola soc un noi que és treballador i li encanta el gimnàs. Sense disciplina no vas a cap lloc.</p>
+  <a class="visually-hidden" href="#contingut">Salta al contingut</a>
 
-  <img src="fotos/pfp.jpg" alt="Foto personal">
+  <header class="header">
+    <div class="container">
+      <h1 class="title">Oriol March Vernet</h1  >
+      <p class="tagline">“Sense disciplina no vas a cap lloc.” Treball, gimnàs, tecnologia i una mica d’inconformisme per construir coses que valguin la pena.</p>
+    </div>
+  </header>
+
+  <main id="contingut" class="container">
+    <article class="card">
+      <figure>
+        <img class="avatar" src="fotos/pfp.jpg" alt="Retrat" />
+      </figure>
+
+      <div>
+        <h2>Sobre mi</h2>
+        <p class="bio">
+          M'agraden molt les motos i el desenvolupament d'ordinadors, també soc una persona molt alegre i disciplinada.
+        </p>
+
+        <div class="meta">
+          <span class="badge">🖥️ Dev</span>
+          <span class="badge">🏋️ GYM</span>
+          <span class="badge">🏍️ Motos</span>
+          <span class="badge">Edgar ❤️❤️❤️</span>
+        </div>
+
+        <div class="actions">
+          <a class="button" href="https://github.com/OriolMarch/webpersonal-github" target="_blank" rel="noopener">GitHub</a>
+          <a class="button" href="https://www.instagram.com/uriiimv" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
   <footer>
-    <p>© 2025 Oriol March Vernet - Pàgina personal</p>
+    <div class="container">
+      © 2025 Oriol March Vernet
+    </div>
   </footer>
 </body>
 </html>
